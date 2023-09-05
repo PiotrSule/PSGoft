@@ -2,7 +2,7 @@
 % Please edit documentation in R/MLF.pvalue.R
 \name{MLF.pvalue}
 \alias{MLF.pvalue}
-\title{Modified Lilliefors Goodness-of-fit Test for Normality}
+\title{Modified Lilliefors Goodness-of-fit Normality Test}
 \usage{
 MLF.pvalue(x)
 }
@@ -10,8 +10,8 @@ MLF.pvalue(x)
 \item{x}{a numeric vector of data values, the number of which must be greater than 4.}
 }
 \description{
-Calculates the p - value of the modified Lilliefors goodness-of-fit test
-for the composite hypothesis of normality (see Sulewski P. (2019)).
+Calculates the p - value of the modified Lilliefors goodness-of-fit normality test
+(see Sulewski P. (2019)).
 }
 \details{
 The modified Lilliefors goodness-of-fit p-value,

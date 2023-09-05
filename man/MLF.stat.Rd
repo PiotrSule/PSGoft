@@ -2,7 +2,7 @@
 % Please edit documentation in R/MLF.stat.R
 \name{MLF.stat}
 \alias{MLF.stat}
-\title{Modified Lilliefors Goodness-of-fit Test for Normality}
+\title{Modified Lilliefors Goodness-of-fit Normality Test}
 \usage{
 MLF.stat(x)
 }
@@ -10,12 +10,10 @@ MLF.stat(x)
 \item{x}{a numeric vector of data values, the number of which must be greater than 4.}
 }
 \description{
-Calculates the statistic of the modified Lilliefors goodness-of-fit test
-for the composite hypothesis of normality (see Sulewski P. (2019)).
+Calculates the statistic of the modified Lilliefors goodness-of-fit normality test (see Sulewski P. (2019)).
 }
 \details{
-The modified Lilliefors goodness-of-fit statistic,
-see formula (5) in the article.
+The modified Lilliefors goodness-of-fit statistic, see formula (5) in the article.
 }
 \examples{
 MLF.stat(rnorm(33, mean = 0, sd = 2))

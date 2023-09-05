@@ -5,8 +5,7 @@
 \alias{PSGoft-package}
 \title{The list of package functions and their demonstration}
 \description{
-The \strong{PSGoft} package puts into practice the modified Lilliefors goodness-of-fit test
-for normality. This modification consists in varying a formula of calculating the empirical distribution function.
+The \strong{PSGoft} package puts into practice the modified Lilliefors goodness-of-fit normality test. This modification consists in varying a formula of calculating the empirical distribution function.
 Values of constants a, b in the formula depend on values of sample skewness and excess kurtosis,
 which is recommended in order to increase the power of the LF test.
 }
@@ -18,7 +17,7 @@ which is recommended in order to increase the power of the LF test.
 \code{\link{data2}}
 }
 
-\section{Functions for the modified Lilliefors goodness-of-fit test for normality}{
+\section{Functions for the modified Lilliefors goodness-of-fit normality test}{
 
 
 \code{\link{MLF.stat}}
