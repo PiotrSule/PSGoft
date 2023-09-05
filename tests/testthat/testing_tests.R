@@ -1,0 +1,7 @@
+test_that("Result is a number",{expect_true(is.numeric(MLF.stat(data1)))})
+test_that("Result is a number",{expect_true(is.numeric(MLF.pvalue(data2)))})
+test_that("Result is a number",{expect_true(is.numeric(MLF.test(data1)$statistic))})
+test_that("Result is a number",{expect_true(is.numeric(MLF.test(data2)$p.value))})
+test_that("An invalid number of parameters",{expect_error(MLF.test())})
+test_that("Statistic formula is correct",{expect_equal(round(MLF.stat(data1),4),0.0549)})
+test_that("Statistic formula is correct",{expect_equal(round(MLF.stat(data2),5),0.06399)})
