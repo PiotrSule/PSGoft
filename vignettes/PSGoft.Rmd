@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# PSGoft - Modified Lilliefors Goodness-of-fit Normality Test
+# PSGoft - Modified Lilliefors Goodness-of-Fit Normality Test
 **author: Piotr Sulewski, Pomeranian University**
 <!-- badges: start -->
 <!-- badges: end -->

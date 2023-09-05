@@ -1,5 +1,5 @@
 Package: PSGoft
-Title: Modified Lilliefors Goodness-of-fit Normality Test
+Title: Modified Lilliefors Goodness-of-Fit Normality Test
 Version: 0.0.1
 Authors@R: 
     person("Piotr", "Sulewski", , "piotr.sulewski@apsl.edu.pl", role = c("aut", "cre"),

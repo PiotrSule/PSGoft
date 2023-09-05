@@ -1,5 +1,5 @@
 
-# PSGoft: Modified Lilliefors Goodness-of-fit Normality Test
+# PSGoft: Modified Lilliefors Goodness-of-Fit Normality Test
 
 **author: Piotr Sulewski, Pomeranian University** <!-- badges: start -->
 <!-- badges: end -->
@@ -59,7 +59,7 @@ goodness-of-fit statistic
 MLF.stat(data1)
 #> [1] 0.05488005
 MLF.stat(rnorm(33, mean = 0, sd = 2))
-#> [1] 0.1145668
+#> [1] 0.09910243
 ```
 
 **MLF.pvalue**
@@ -68,9 +68,9 @@ This function returns the p-value for the test
 
 ``` r
 MLF.pvalue(data1)
-#> [1] 0.81555
+#> [1] 0.81592
 MLF.pvalue(rnorm(33, mean = 0, sd = 2))
-#> [1] 0.35721
+#> [1] 0.66459
 ```
 
 **MLF.stat**
@@ -81,14 +81,14 @@ the p-value for the test.
 ``` r
 MLF.test(data1)
 #> 
-#>  Modified Lilliefors goodness-of-fit test for normality
+#>  Modified Lilliefors goodness-of-fit normality test
 #> 
 #> data:  data1
-#> D = 0.05488, p-value = 0.8171
+#> D = 0.05488, p-value = 0.816
 MLF.test(rnorm(33, mean = 0, sd = 2))
 #> 
-#>  Modified Lilliefors goodness-of-fit test for normality
+#>  Modified Lilliefors goodness-of-fit normality test
 #> 
 #> data:  rnorm(33, mean = 0, sd = 2)
-#> D = 0.10742, p-value = 0.3865
+#> D = 0.083871, p-value = 0.748
 ```
