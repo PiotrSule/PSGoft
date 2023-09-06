@@ -1,14 +1,16 @@
-#' @title Modified Lilliefors Goodness-of-fit Normality Test
+#' @title Modified Lilliefors Goodness-of-Fit Normality Test
 #'
 #' @description
-#' Calculates the statistic of the modified Lilliefors goodness-of-fit normality test (see Sulewski P. (2019)).
+#' Calculates the value of the modified Lilliefors goodness-of-fit normality test statistic.
 #'
 #' @param x a numeric vector of data values, the number of which must be greater than 4.
+#'
+#' @return The function returns the value of the modified Lilliefors goodness-of-fit normality test statistic.
 #'
 #' @rdname MLF.stat
 #'
 #' @details
-#' The modified Lilliefors goodness-of-fit statistic, see formula (5) in the article.
+#' The modified Lilliefors goodness-of-fit normality test statistic, see formula (5) in the article.
 #'
 #' @author
 #' Piotr Sulewski, \email{piotr.sulewski@apsl.edu.pl}, Pomeranian University in Slupsk.

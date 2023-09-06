@@ -1,14 +1,14 @@
-#' @title Modified Lilliefors Goodness-of-fit Normality Test
+#' @title Modified Lilliefors Goodness-of-Fit Normality Test
 #'
 #' @description
-#' Performs the modified Lilliefors Goodness-of-fit Normality Test (see Sulewski P. (2019)).
+#' Performs the modified Lilliefors goodness-of-fit normality test.
 #'
 #' @param x a numeric vector of data values, the number of which must be greater than 4.
 #'
 #' @rdname MLF.test
 #'
 #' @details
-#' The modified Lilliefors goodness-of-fit statistic, see formula (5) in the article.
+#' The modified Lilliefors goodness-of-fit normality test statistic, see formula (5) in the article.
 #'
 #' @return
 #' A list with class “htest” containing the following components:

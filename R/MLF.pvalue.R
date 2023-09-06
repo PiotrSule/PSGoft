@@ -1,15 +1,16 @@
-#' @title Modified Lilliefors Goodness-of-fit Normality Test
+#' @title Modified Lilliefors Goodness-of-Fit Normality Test
 #'
 #' @description
-#' Calculates the p - value of the modified Lilliefors goodness-of-fit normality test
-#' (see Sulewski P. (2019)).
+#' Calculates the p-value of the modified Lilliefors goodness-of-fit normality test.
 #'
 #' @param x a numeric vector of data values, the number of which must be greater than 4.
 #'
 #' @rdname MLF.pvalue
 #'
+#' @return The function returns the p-value of the modified Lilliefors goodness-of-fit normality test.
+#'
 #' @details
-#' The modified Lilliefors goodness-of-fit p-value,
+#' The modified Lilliefors goodness-of-fit p-value.
 #'
 #' @author
 #' Piotr Sulewski, \email{piotr.sulewski@apsl.edu.pl}, Pomeranian University in Slupsk.

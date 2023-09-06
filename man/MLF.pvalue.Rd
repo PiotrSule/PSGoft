@@ -2,19 +2,21 @@
 % Please edit documentation in R/MLF.pvalue.R
 \name{MLF.pvalue}
 \alias{MLF.pvalue}
-\title{Modified Lilliefors Goodness-of-fit Normality Test}
+\title{Modified Lilliefors Goodness-of-Fit Normality Test}
 \usage{
 MLF.pvalue(x)
 }
 \arguments{
 \item{x}{a numeric vector of data values, the number of which must be greater than 4.}
 }
+\value{
+The function returns the p-value of the modified Lilliefors goodness-of-fit normality test.
+}
 \description{
-Calculates the p - value of the modified Lilliefors goodness-of-fit normality test
-(see Sulewski P. (2019)).
+Calculates the p-value of the modified Lilliefors goodness-of-fit normality test.
 }
 \details{
-The modified Lilliefors goodness-of-fit p-value,
+The modified Lilliefors goodness-of-fit p-value.
 }
 \examples{
 \donttest{MLF.pvalue(rnorm(33, mean = 0, sd = 2))}

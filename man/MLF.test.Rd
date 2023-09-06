@@ -2,7 +2,7 @@
 % Please edit documentation in R/MLF.test.R
 \name{MLF.test}
 \alias{MLF.test}
-\title{Modified Lilliefors Goodness-of-fit Normality Test}
+\title{Modified Lilliefors Goodness-of-Fit Normality Test}
 \usage{
 MLF.test(x)
 }
@@ -21,10 +21,10 @@ A list with class “htest” containing the following components:
 \code{data.name} - a character string giving the name(s) of the data.
 }
 \description{
-Performs the modified Lilliefors Goodness-of-fit Normality Test (see Sulewski P. (2019)).
+Performs the modified Lilliefors goodness-of-fit normality test.
 }
 \details{
-The modified Lilliefors goodness-of-fit statistic, see formula (5) in the article.
+The modified Lilliefors goodness-of-fit normality test statistic, see formula (5) in the article.
 }
 \examples{
 \donttest{MLF.test(rnorm(33, mean = 0, sd = 2))}
